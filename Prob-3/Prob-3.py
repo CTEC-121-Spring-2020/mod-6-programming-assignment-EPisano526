@@ -2,13 +2,17 @@
 #   Programming Assignment 10
 #     Prob-3.py
 
-# <YOUR NAME>
+# Esther Pisano
+
 
 def main():
     # your code here
 
     # do not change the while loop definition below
     while True:
-        # your code here
+        x = float(input("Input next number (negative to quit): "))
+        if x <= 0:
+            break  # Exit loop if number is valid.
 
-main()    
+
+main()
